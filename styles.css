@@ -9,20 +9,27 @@ h2 {
     color: dimgray;
     text-align: center;
     font-size: 30px;
+    font-weight: bold;
+    margin-top: 80px;
 }
 
 body {
     background-color: cornsilk;
     font-family: 'M PLUS Rounded 1c', sans-serif;
+    letter-spacing: 1px;
 }
 
 
 table {
-    border: 1px gray solid;
+    border: 2px gray solid;
+    margin: auto;
+    max-width:1000px;
 }
 
 th, td {
-    border: 1px gray solid;
+    border: 2px gray solid;
+    padding: 5px 10px;
+    margin: auto;
 }
 
 span {
@@ -31,4 +38,5 @@ span {
 
 .tag {
     color: red;
+    text-align: center;
 }
