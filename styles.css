@@ -1,12 +1,34 @@
+h1 {
+    color: darkslategrey;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    color: dimgray;
+    text-align: center;
+    font-size: 30px;
+}
+
 body {
-    background-color: hotpink;
+    background-color: cornsilk;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 
 table {
-    border: 1px lightpink solid;
+    border: 1px gray solid;
 }
 
 th, td {
-    border: 1px lightpink solid;
+    border: 1px gray solid;
+}
+
+span {
+    color: blue;
+}
+
+.tag {
+    color: red;
 }
