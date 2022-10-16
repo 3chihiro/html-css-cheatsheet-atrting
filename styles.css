@@ -1,0 +1,12 @@
+body {
+    background-color: hotpink;
+}
+
+
+table {
+    border: 1px lightpink solid;
+}
+
+th, td {
+    border: 1px lightpink solid;
+}
