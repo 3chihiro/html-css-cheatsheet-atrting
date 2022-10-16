@@ -1,94 +1,98 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Cheat Sheet</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;900&display=swap" rel="stylesheet">
-</head>
-<body>
-    <h1>セマンティックHTML リファレンス</h1>
-    
-    <h2>セマンティック要素</h2>
-
-    <table>
-        <thead>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Semantic HTML Cheat Sheet</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;900&display=swap" rel="stylesheet"/>
+  </head>
+  <body>
+    <header>
+        <h1>セマンティックHTML リファレンス</h1>
+    </header>
+    <main>
+        <h2>セマンティック要素</h2>
+        <!-- Table elements from here. -->
+        <table>
+          <thead>
             <th>タグ</th>
             <th>要素</th>
             <th>概要</th>
-        </thead>
-        <tbody>
+          </thead>
+          <tbody>
             <tr>
-                <td class="tag"><span>&lt;</span>article<span>&gt;</span></td>
-                <td>記事要素</td>
-                <td>記事、ブログ、コメントなど、それ自体で意味のあるコンテンツを表す。</td>
+              <td class="tag"><span>&lt;</span>article<span>&gt;</span></td>
+              <td>記事要素</td>
+              <td>
+                記事、ブログ、コメントなど、それ自体で意味のあるコンテンツを表す。
+              </td>
             </tr>
             <tr>
-                <td class="tag"><span>&lt;</span>asid<span>&gt;</span></td>
-                <td>余談要素</td>
-                <td>メインコンテンツと間接的な関係しか持っていない文書を表現。</td>
+              <td class="tag"><span>&lt;</span>asid<span>&gt;</span></td>
+              <td>余談要素</td>
+              <td>メインコンテンツと間接的な関係しか持っていない文書を表現。</td>
             </tr>
             <tr>
-                <td class="tag"><span>&lt;</span>details<span>&gt;</span></td>
-                <td>詳細折りたたみ要素</td>
-                <td>ウィジェットが「開いた」状態になった時のみ情報が表示される折りたたみウィジェットを作成。</td>
+              <td class="tag"><span>&lt;</span>details<span>&gt;</span></td>
+              <td>詳細折りたたみ要素</td>
+              <td>ウィジェットが「開いた」状態になった時のみ情報が表示される折りたたみウィジェットを作成。</td>
             </tr>
             <tr>
-                <td class="tag"><span>&lt;</span>figcaption<span>&gt;</span></td>
-                <td>図キャプション要素</td>
-                <td>&lt;figure&gt;要素内にある、コンテンツを説明するキャプションや判例を表す。</td>
+              <td class="tag"><span>&lt;</span>figcaption<span>&gt;</span></td>
+              <td>図キャプション要素</td>
+              <td>&lt;figure&gt;要素内にある、コンテンツを説明するキャプションや判例を表す。</td>
             </tr>
             <tr>
-                <td class="tag"><span>&lt;</span>figure<span>&gt;</span></td>
-                <td>キャプションがつけられる図要素</td>
-                <td>図表などの自己完結型コンテンツ。&lt;figcaption&gt;を使用して、説明がつけられる。</td>
+              <td class="tag"><span>&lt;</span>figure<span>&gt;</span></td>
+              <td>キャプションがつけられる図要素</td>
+              <td>図表などの自己完結型コンテンツ。&lt;figcaption&gt;を使用して、説明がつけられる。</td>
             </tr>
             <tr>
-                <td class="tag"><span>&lt;</span>footer<span>&gt;</span></td>
-                <td>フッター要素</td>
-                <td>コンテンツのフッターを表す。フッターは、著作者に関する情報、関連文書へのリンク、著作権情報が含める。</td>
+              <td class="tag"><span>&lt;</span>footer<span>&gt;</span></td>
+              <td>フッター要素</td>
+              <td>コンテンツのフッターを表す。フッターは、著作者に関する情報、関連文書へのリンク、著作権情報が含める。</td>
             </tr>
             <tr>
-                <td class="tag"><span>&lt;</span>header<span>&gt;</span></td>
-                <td>ヘッダー要素</td>
-                <td>導入的なコンテンツ、導入部やナビゲーション等のグループを表す。ロゴ、検索フォーム、作者名、その他要素も含むことができる。</td>
+              <td class="tag"><span>&lt;</span>header<span>&gt;</span></td>
+              <td>ヘッダー要素</td>
+              <td>導入的なコンテンツ、導入部やナビゲーション等のグループを表す。ロゴ、検索フォーム、作者名、その他要素も含むことができる。</td>
             </tr>
             <tr>
-                <td class="tag"><span>&lt;</span>main<span>&gt;</span></td>
-                <td>メイン要素</td>
-                <td>&lt;body&gt;の主要な内容を表す。文書の中心的な主題を表す。</td>
+              <td class="tag"><span>&lt;</span>main<span>&gt;</span></td>
+              <td>メイン要素</td>
+              <td>&lt;body&gt;の主要な内容を表す。文書の中心的な主題を表す。</td>
             </tr>
             <tr>
-                <td class="tag"><span>&lt;</span>mark<span>&gt;</span></td>
-                <td>文字列マーク要素</td>
-                <td>文脈の中で<mark>マーク</mark>を付けた部分の関連性や重要性のために、目立たせたり、強調する文字列を表す。</td>
+              <td class="tag"><span>&lt;</span>mark<span>&gt;</span></td>
+              <td>文字列マーク要素</td>
+              <td>文脈の中で<mark>マーク</mark>を付けた部分の関連性や重要性のために、目立たせたり、強調する文字列を表す。</td>
             </tr>
             <tr>
-                <td class="tag"><span>&lt;</span>nav<span>&gt;</span></td>
-                <td>ナビゲーションセクション要素</td>
-                <td>ナビゲーションリンクを提供するためのセクションを表す。一般的な例としてメニュー、目次、索引などがある。</td>
+              <td class="tag"><span>&lt;</span>nav<span>&gt;</span></td>
+              <td>ナビゲーションセクション要素</td>
+              <td>ナビゲーションリンクを提供するためのセクションを表す。一般的な例としてメニュー、目次、索引などがある。</td>
             </tr>
             <tr>
-                <td class="tag"><span>&lt;</span>section<span>&gt;</span></td>
-                <td>汎用セクション要素</td>
-                <td>文書の自立したセクションを表す。そのセクションを表す、具体的な要素がない場合に使用する。</td>
+              <td class="tag"><span>&lt;</span>section<span>&gt;</span></td>
+              <td>汎用セクション要素</td>
+              <td>文書の自立したセクションを表す。そのセクションを表す、具体的な要素がない場合に使用する。</td>
             </tr>
             <tr>
-                <td class="tag"><span>&lt;</span>summary<span>&gt;</span></td>
-                <td>概要明示要素</td>
-                <td>&lt;details&gt;要素の折り畳みボックスの要約、キャプション、説明、凡例を表す。</td>
+              <td class="tag"><span>&lt;</span>summary<span>&gt;</span></td>
+              <td>概要明示要素</td>
+              <td> &lt;details&gt;要素の折り畳みボックスの要約、キャプション、説明、凡例を表す。</td>
             </tr>
             <tr>
-                <td class="tag"><span>&lt;</span>time<span>&gt;</span></td>
-                <td>タイム要素</td>
-                <td>datetime 属性を使用して、機械可読な形式の日付を記述することがきる。</td>
+              <td class="tag"><span>&lt;</span>time<span>&gt;</span></td>
+              <td>タイム要素</td>
+              <td>datetime 属性を使用して、機械可読な形式の日付を記述することがきる。</td>
             </tr>
-        </tbody>
-    </table>
-
-</body>
+          </tbody>
+        </table>
+    </main>
+  </body>
 </html>
